@@ -1,0 +1,66 @@
+Origin: BlankOn
+Label: BlankOn
+Codename: verbeek
+Suite: verbeek
+Components: main restricted extras extras-restricted
+UDebComponents: main
+Architectures: amd64 source
+Version: 12.0
+Description: BlankOn 12.0 Verbeek
+# XXXXXXXXXX
+# Jangan kasih "-" di kolom Update, nanti paket2 khas2 blankon akan dihapus
+Update: merge.sid
+SignWith: 9120A048
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2 
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+#Pull: pull.verbeek
+Contents: udebs nodebs . .gz
+ContentsArchitectures: amd64 source
+ContentsComponents: main restricted extras extras-restricted
+ContentsUComponents: main
+Log: verbeek.log
+ --type=dsc changelogs
+
+Origin: BlankOn
+Label: BlankOn
+Codename: verbeek-security
+Suite: verbeek-security
+Components: main restricted extras extras-restricted 
+UDebComponents: main 
+Architectures: amd64 source
+Version: 12.0
+Description: BlankOn 12.0 Verbeek Security
+Update: 
+SignWith: 9120A048
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+Contents: udebs nodebs . .gz 
+ContentsArchitectures: amd64 
+ContentsComponents: main restricted extras extras-restricted 
+ContentsUComponents: main 
+Log: verbeek-security.log
+ --type=dsc changelogs
+
+Origin: BlankOn
+Label: BlankOn
+Codename: verbeek-updates
+Suite: verbeek-updates
+Components: main restricted extras extras-restricted
+UDebComponents: main
+Architectures: amd64 source
+Version: 12.0
+Description: BlankOn 12.0 Verbeek Updates
+Update:
+SignWith: 9120A048
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+Contents: udebs nodebs . .gz
+ContentsArchitectures: amd64
+ContentsComponents: main restricted extras extras-restricted
+ContentsUComponents: main
+Log: verbeek-security.log 
+ --type=dsc changelogs 
+
