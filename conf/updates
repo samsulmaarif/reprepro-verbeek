@@ -1,8 +1,9 @@
 Name: merge.sid
-Suite: verbeek
+Suite: sid
 VerifyRelease: blindtrust	
 Method: http://kartolo.sby.datautama.net.id/debian
 Architectures: amd64 source
-Components: main restricted extras extras-restricted
+Components: main non-free>restricted contrib>extras
+# main restricted extras extras-restricted
 #FilterList: install blacklist.unstable
 FilterList: install blacklist.pkg

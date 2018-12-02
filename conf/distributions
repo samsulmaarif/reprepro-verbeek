@@ -14,7 +14,7 @@ SignWith: 9120A048
 DebIndices: Packages Release . .gz .bz2 tiffany.py
 UDebIndices: Packages . .gz .bz2 
 DscIndices: Sources Release . .gz .bz2 tiffany.py
-#Pull: pull.verbeek
+Pull: pull.verbeek
 Contents: udebs nodebs . .gz
 ContentsArchitectures: amd64 source
 ContentsComponents: main restricted extras extras-restricted

@@ -1,3 +1,4 @@
 rilis/
 !gnupg/gpg.conf
 lists/*
+logs/*.log
